@@ -8,8 +8,12 @@ alias c="clear"
 
 alias work="cd Documents/code/work"
 alias blog="cd Documents/code/blog"
+alias oss="cd Documents/code/oss"
 alias note="cd Documents/code/notes"
 alias wip="cd Documents/code/personal/wip"
+alias pra="cd Documents/code/practice"
+alias code="cd Documents/code"
+
 
 # GIT
 alias gc="git clone" # + remote url
@@ -39,13 +43,16 @@ alias nrs="npm run serve"
 alias nrd="npm run dev"
 alias nrst="npm run start"
 alias nrw="npm run watch"
+alias nrb="npm run build"
 alias nid="npm install -D" # + devDependency package name
 alias nig="npm install -g" # + package name 
+alias sass="npm run compile:sass"
 
 # SUDO
 alias ins="sudo apt-get install" # + package name
 alias up="sudo apt-get update"
 alias ssms="sudo service mongod start"
+alias health="sudo HDSentinel/HDSentinel -r"
 
 # HUGO
 alias hs="hugo server"
