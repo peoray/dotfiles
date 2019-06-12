@@ -51,8 +51,15 @@ alias sass="npm run compile:sass"
 # SUDO
 alias ins="sudo apt-get install" # + package name
 alias up="sudo apt-get update"
-alias ssms="sudo service mongod start"
 alias health="sudo HDSentinel/HDSentinel -r"
+
+#Mongo
+alias ssms="sudo service mongod start"
+
+#Redis
+alias sssr="sudo systemctl start redis"
+alias ssstr="sudo systemctl stop redis"
+
 
 # HUGO
 alias hs="hugo server"
