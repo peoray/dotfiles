@@ -12,6 +12,7 @@ alias oss="cd Documents/code/oss"
 alias note="cd Documents/code/notes"
 alias wip="cd Documents/code/personal/wip"
 alias pra="cd Documents/code/practice"
+alias allegro="cd Documents/code/tecmie/allegro"
 alias code="cd Documents/code"
 
 
@@ -55,6 +56,7 @@ alias health="sudo HDSentinel/HDSentinel -r"
 
 #Mongo
 alias ssms="sudo service mongod start"
+alias ssmst="sudo service mongod stop"
 
 #Redis
 alias sssr="sudo systemctl start redis"
@@ -64,4 +66,5 @@ alias ssstr="sudo systemctl stop redis"
 # HUGO
 alias hs="hugo server"
 alias hsd="hugo server -D"
+alias hnp="hugo new post/draft/" # + article filename
 
