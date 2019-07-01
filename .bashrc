@@ -55,6 +55,7 @@ alias health="sudo HDSentinel/HDSentinel -r"
 
 #Mongo
 alias ssms="sudo service mongod start"
+alias ssmst="sudo service mongod stop"
 
 #Redis
 alias sssr="sudo systemctl start redis"
