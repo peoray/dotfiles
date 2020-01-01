@@ -2,18 +2,17 @@
 # ALIASES & PATHS
 ################################################################################
 
-
 # General system
 alias c="clear"
 
 alias work="cd Documents/code/work"
-alias blog="cd Documents/code/blog"
+alias blog="cd Documents/code/blog/peoray.dev"
 alias oss="cd Documents/code/oss"
 alias note="cd Documents/code/notes"
+alias per="cd Documents/code/personal"
 alias wip="cd Documents/code/personal/wip"
-alias pra="cd Documents/code/practice"
-alias allegro="cd Documents/code/tecmie/allegro"
-alias code="cd Documents/code"
+alias pra="cd Documents/code/personal/practice"
+alias codes="cd Documents/code"
 
 
 # GIT
@@ -30,8 +29,10 @@ alias gpo="git push origin" # + branch name
 alias gl="git pull" # + remote & branch names
 alias gpom="git push origin master"
 
+alias gl="git pull" # + remote & branch names
 alias glo="git pull origin" # + branch name
 alias glom="git pull origin master"
+alias glum="git pull upstream master"
 
 alias gb="git branch" # + branch name
 alias gch="git checkout" # + branch name
@@ -62,9 +63,10 @@ alias ssmst="sudo service mongod stop"
 alias sssr="sudo systemctl start redis"
 alias ssstr="sudo systemctl stop redis"
 
-
 # HUGO
 alias hs="hugo server"
 alias hsd="hugo server -D"
 alias hnp="hugo new post/draft/" # + article filename
 
+# Gridsome
+alias grid="gridsome develop"
