@@ -5,6 +5,7 @@
 # General system
 alias c="clear"
 
+alias boost="cd Boostnote"
 alias work="cd Documents/code/work"
 alias blog="cd Documents/code/blog/peoray.dev"
 alias oss="cd Documents/code/oss"
