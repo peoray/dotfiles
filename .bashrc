@@ -39,6 +39,8 @@ alias gb="git branch" # + branch name
 alias gch="git checkout" # + branch name
 alias gcb="git checkout -b" # + branch name
 
+alias disk="git add -u :/"
+
 # NPM
 alias ni="npm install"
 alias uni="npm uninstall" # + package name
