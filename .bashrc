@@ -5,6 +5,8 @@
 # General system
 alias c="clear"
 
+alias mouse=" xinput set-button-map 14 0 0 0 4 5 6 7 8 9 10 11 12"
+
 alias boost="cd Boostnote"
 alias work="cd Documents/code/work"
 alias blog="cd Documents/code/blog/peoray.dev"
@@ -33,6 +35,7 @@ alias gpom="git push origin master"
 alias gl="git pull" # + remote & branch names
 alias glo="git pull origin" # + branch name
 alias glom="git pull origin master"
+alias glu="git pull upstream"
 alias glum="git pull upstream master"
 
 alias gb="git branch" # + branch name
