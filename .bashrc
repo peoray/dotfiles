@@ -5,6 +5,12 @@
 # General system
 alias c="clear"
 
+alias .='cd ..'
+alias ..='cd ../../'
+alias ...='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+
 alias mouse=" xinput set-button-map 14 0 0 0 4 5 6 7 8 9 10 11 12"
 
 alias boost="cd Boostnote"
@@ -39,6 +45,8 @@ alias glu="git pull upstream"
 alias glum="git pull upstream master"
 
 alias gb="git branch" # + branch name
+alias gbd="git branch -d" # + branch name
+alias gbD="git branch -D" # + branch name
 alias gch="git checkout" # + branch name
 alias gcb="git checkout -b" # + branch name
 
