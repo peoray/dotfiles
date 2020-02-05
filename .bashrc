@@ -11,8 +11,6 @@ alias ...='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 
-alias mouse=" xinput set-button-map 14 0 0 0 4 5 6 7 8 9 10 11 12"
-
 alias boost="cd Boostnote"
 alias work="cd Documents/code/work"
 alias blog="cd Documents/code/blog/peoray.dev"
@@ -65,15 +63,21 @@ alias nig="npm install -g" # + package name
 alias sass="npm run compile:sass"
 
 # SUDO
-alias ins="sudo apt-get install" # + package name
-alias up="sudo apt-get update"
+alias ins="sudo apt  install" # + package name
+alias up="sudo apt update"
 alias health="sudo HDSentinel/HDSentinel -r"
 
-#Mongo
+# Mongo
 alias ssms="sudo service mongod start"
 alias ssmst="sudo service mongod stop"
 
-#Redis
+# MySQL
+alias mysql-start="sudo systemctl start mysql.service"
+alias mysql-stop="sudo systemctl stop mysql.service"
+alias mysql-status="sudo systemctl status mysql.service"
+alias sql="sudo mysql"
+
+# Redis
 alias sssr="sudo systemctl start redis"
 alias ssstr="sudo systemctl stop redis"
 
@@ -83,4 +87,8 @@ alias hsd="hugo server -D"
 alias hnp="hugo new post/draft/" # + article filename
 
 # Gridsome
+
+# Xampp
+alias xampp="sudo /opt/lampp/lampp start"
+
 alias grid="gridsome develop"
