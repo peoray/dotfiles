@@ -52,12 +52,14 @@ alias disk="git add -u :/"
 
 # NPM
 alias ni="npm install"
+alias nr="npm run" # + script
 alias uni="npm uninstall" # + package name
 alias nrs="npm run serve"
 alias nrd="npm run dev"
 alias nrst="npm run start"
 alias nrw="npm run watch"
 alias nrb="npm run build"
+alias nrp="npm run prod"
 alias nid="npm install -D" # + devDependency package name
 alias nig="npm install -g" # + package name 
 alias sass="npm run compile:sass"
@@ -87,8 +89,9 @@ alias hsd="hugo server -D"
 alias hnp="hugo new post/draft/" # + article filename
 
 # Gridsome
+alias grid="gridsome develop"
 
 # Xampp
 alias xampp="sudo /opt/lampp/lampp start"
+alias xampp-st="sudo /opt/lampp/lampp stop"
 
-alias grid="gridsome develop"
