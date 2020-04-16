@@ -33,12 +33,13 @@ alias glg="git log --oneline"
 
 alias gp="git push" # + remote & branch names
 alias gpo="git push origin" # + branch name
-alias gl="git pull" # + remote & branch names
+alias gpod="git push origin develop"
 alias gpom="git push origin master"
 
 alias gl="git pull" # + remote & branch names
 alias glo="git pull origin" # + branch name
 alias glom="git pull origin master"
+alias glod="git pull origin develop"
 alias glu="git pull upstream"
 alias glum="git pull upstream master"
 
