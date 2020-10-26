@@ -12,12 +12,10 @@ alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 
 alias boost="cd Boostnote"
-alias work="cd Documents/code/work"
 alias csoft="cd Documents/code/work/chigisoft"
+alias tec="cd Documents/code/work/tecmie"
 alias blog="cd Documents/code/blog/peoray.dev"
 alias oss="cd Documents/code/oss"
-alias wip="cd Documents/code/personal/projects/wip"
-alias fini="cd Documents/code/personal/projects/done"
 alias learn="cd Documents/code/personal/playground/courses"
 alias exp="cd Documents/code/personal/playground/experiments"
 
