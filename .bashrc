@@ -27,6 +27,7 @@ alias gs="git status"
 alias gac="git add . && git commit -m" # + commit message
 alias grv="git remote -v"
 alias grao="git remote add origin" # + remote url
+alias grso="git remote set-url origin" # + [URL]
 alias glg="git log --oneline"
 
 alias gp="git push" # + remote & branch names
