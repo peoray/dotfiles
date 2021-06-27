@@ -4,6 +4,11 @@
 
 # General system
 alias c="clear"
+alias del="rm -rf" # + item
+alias delgit="rm -rf .git"
+alias delnm="rm -rf node_modules"
+alias delpl="rm -rf package-lock.json"
+alias delyl="rm -rf yarn.lock"
 
 alias .='cd ..'
 alias ..='cd ../../'
@@ -11,13 +16,14 @@ alias ...='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 
-alias boost="cd Boostnote"
-alias csoft="cd Documents/code/work/chigisoft"
+alias work="cd code/work"
 alias tec="cd Documents/code/work/tecmie"
 alias blog="cd Documents/code/blog/peoray.dev"
 alias oss="cd Documents/code/oss"
-alias learn="cd Documents/code/personal/playground/courses"
-alias exp="cd Documents/code/personal/playground/experiments"
+alias proj="cd code/personal/projects"
+alias play="cd code/personal/playground"
+alias learn="cd code/personal/playground/courses"
+alias exp="cd code/personal/playground/experiments"
 
 
 # GIT
@@ -32,13 +38,15 @@ alias glg="git log --oneline"
 
 alias gp="git push" # + remote & branch names
 alias gpo="git push origin" # + branch name
-alias gpod="git push origin develop"
 alias gpom="git push origin master"
+alias gpodp="git push origin develop"
+alias gpod="git push origin dev"
 
 alias gl="git pull" # + remote & branch names
 alias glo="git pull origin" # + branch name
 alias glom="git pull origin master"
-alias glod="git pull origin develop"
+alias glodp="git pull origin develop"
+alias glod="git pull origin dev"
 alias glu="git pull upstream"
 alias glum="git pull upstream master"
 
