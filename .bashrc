@@ -18,6 +18,8 @@ alias .5='cd ../../../../../'
 
 alias work="cd code/work"
 alias tec="cd Documents/code/work/tecmie"
+alias ucc="cd Documents/code/work/ucc"
+alias ta="cd Documents/code/work/travelafrique"
 alias blog="cd Documents/code/blog/peoray.dev"
 alias oss="cd Documents/code/oss"
 alias proj="cd code/personal/projects"
