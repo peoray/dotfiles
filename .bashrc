@@ -88,10 +88,6 @@ alias yad="yarn add -D" # + devDependency package name
 alias yag="yarn add -g" # + package name 
 
 
-# Sass
-alias sass="yarn run compile:sass"
-
-
 # SUDO
 alias ins="sudo apt  install" # + package name
 alias up="sudo apt update"
@@ -113,19 +109,4 @@ alias sql="sudo mysql"
 # Redis
 alias sssr="sudo systemctl start redis"
 alias ssstr="sudo systemctl stop redis"
-
-
-# HUGO
-alias hs="hugo server"
-alias hsd="hugo server -D"
-alias hnp="hugo new post/draft/" # + article filename
-
-
-# Gridsome
-alias grid="gridsome develop"
-
-
-# Xampp
-alias xampp="sudo /opt/lampp/lampp start"
-alias xampp-st="sudo /opt/lampp/lampp stop"
 
